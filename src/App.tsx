@@ -2,7 +2,8 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
-import Finalisation from './components/Finalisation'
+import Acceuil from './components/Acceuil'
+// import Finalisation from './components/Finalisation'
 // import Creation from './components/Creation'
 // import Verification from './components/Verification'
 
@@ -12,7 +13,8 @@ function App() {
     <>
       {/* <Creation/> */}
       {/* <Verification/> */}
-      <Finalisation/>
+      {/* <Finalisation/> */}
+      <Acceuil/>
     </>
   )
 }
