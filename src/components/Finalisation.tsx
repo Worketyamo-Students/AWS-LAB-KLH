@@ -1,12 +1,12 @@
 // import React from 'react'
 import { Titles } from './Titles'
 import { Forms } from './Forms'
-import Buttons from './Buttons'
+import { Bouton } from './Buttons'
 import Terms from './Terms'
 
 export default function Finalisation() {
     return (
-        <section className='flex flex-col text-[inter] justify-center items-center'>
+        <section className='flex flex-1 flex-col text-[inter] justify-center items-center'>
             <div className='mt-[3rem]'>
                 <Titles image='/logo1.svg' title='Finalisation' description='Inviter 04 amis pour finaliser l’inscription ' />
             </div>
@@ -19,7 +19,7 @@ export default function Finalisation() {
             </form>
 
             <div className='mt-4'>
-                <Buttons />
+                <Bouton link='/acceuil' />
             </div>
 
             <div className='mt-4'>

@@ -1,11 +1,11 @@
 // import React from 'react'
 import { Inputs } from './subcomponents/inputs'
-import Buttons from './Buttons'
+import { Bouton } from './Buttons'
 import { Titles } from './Titles'
 
 function Creation() {
     return (
-        <section className='flex flex-col text-[inter] justify-center items-center'>
+        <section className='flex-1 flex flex-col text-[inter] justify-center items-center'>
             <Titles image='/logo1.svg' title='Creation de compte' description='Rentrez vos infos pour creer votre compte .'/>
 
             <form className='mt-4' action="submit">
@@ -27,17 +27,17 @@ function Creation() {
             </div>
 
             <div className='p-2 flex flex-col gap-4'>
-                <div className='w-[300px] h-[35px] border-2 rounded-md border-[#E4E4E7] flex items-center justify-center gap-2'>
+                <button className='w-[300px] h-[35px] border-2 rounded-md border-[#E4E4E7] flex items-center justify-center gap-2'>
                     <img src="/github-logo.svg" alt="Github logo" />
                     <p>Github</p>
-                </div>
-                <div className='w-[300px] h-[35px] border-2 rounded-md border-[#E4E4E7] flex items-center justify-center gap-2'>
+                </button>
+                <button className='w-[300px] h-[35px] border-2 rounded-md border-[#E4E4E7] flex items-center justify-center gap-2'>
                     <img src="/google.svg" alt="Google logo" />
                     <p>Google</p>
-                </div>
+                </button>
             </div>
 
-           <Buttons/>
+           <Bouton link='/verification'/>
 
             <p className='font-[400] text-[14px] text-[#71717A] p-6'>By clicking continue, you agree to our <br />
                 <a className='underline' href="">Terms of Service</a> and <a className='underline' href="">Privacy Policy</a>.</p>
